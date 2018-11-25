@@ -84,6 +84,19 @@ functionName(argument_1, argument_2);
 ### Parameter
 
 #### Default parameter
+你可以在定义function时定义参数的默认值。
+
+```js
+function  moveLeft(xInterval = 20) {
+  this.setState(state => ({ x: state.x - xInterval }));
+}
+```
+
+这个例子中，`xInterval`就是一个default parameter，默认值是20。如果在调用这个function时，没有定义xInterval的值，如下，那么`xInterval`的值就是默认值。
+
+```js
+moveLeft();
+```
 
 #### Rest parameter
 
