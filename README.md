@@ -101,6 +101,13 @@ moveLeft();
 #### Rest parameter
 
 ### Function expression
+A function expression evaluates to a function reference. 在以下例子中，`function () { alert('Something happens after a certain period.') }`就是一个function expression.
+
+```js
+setTimeout(function () {
+	alert('Something happens after a certain period.')
+}, 1000);
+```
 
 ### Arrow function
 
