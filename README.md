@@ -110,6 +110,15 @@ setTimeout(function () {
 ```
 
 ### Arrow function
+上面的例子可以用arrow function来表示。
+
+```js
+setTimeout(() => alert('Something happens after a certain period.'), 1000);
+```
+
+Arrow function其实也就是function expression的一种表达形式，更简洁。不过，`this`在arrow function里的值与一般的function expression里的不同。
+
+#### `This` in a arrow function
 
 ## Object
 
