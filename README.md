@@ -121,6 +121,25 @@ Arrow function其实也就是function expression的一种表达形式，更简�
 #### `This` in a arrow function
 
 ## Object
+Object可解释为对象或物体，如任务。有时，object只是作为一个namespace的功能，将相关的属性和方法封装起来，形成自己的scope，类似于module. 如`Math`这个对象，将`PI`，`random`等method包起来。
+
+有时，object的功能类似于Ruby里的hash。
+
+所以，object可以扮演3种角色，很灵活。
+
+- 纯粹的object， 如`person`, `date`.
+- Namespace.
+- Hash.
+
+### Defining an object
+下面定义一个object。
+
+```js
+const article = {
+  date: '2019-02-05',
+  title: 'happy new year'
+};
+```
 
 ## Constructor, prototype, inheritance, and class
 
