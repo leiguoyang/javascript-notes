@@ -50,6 +50,25 @@ age < 14
 
 ## Conditional test, if...else, loop
 
+### Switch
+
+```
+switch (expression) {
+  case choice1:
+    // do sth
+    break;
+
+  case choice2:
+    // do sth
+    break;
+    
+  // include as many cases as you like
+
+  default:
+    // do sth
+}
+```
+
 ## Function
 Function就是用来完成一定功能的代码块，既可以表示成数学意义上的函数，也可以只是完成一定的功能而已。
 
